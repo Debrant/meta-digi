@@ -169,4 +169,4 @@ do_deploy_append() {
 	rm -f ${TMP_BOOTSCR}
 }
 
-COMPATIBLE_MACHINE = "(ccimx6$|ccimx6ul|ccimx8x)"
+COMPATIBLE_MACHINE = "(tiger6|ccimx6$|ccimx6ul|ccimx8x)"
